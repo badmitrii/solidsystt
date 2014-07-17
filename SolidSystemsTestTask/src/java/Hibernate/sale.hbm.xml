@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="Entities.Sale" table="sales">
+      <id column="saleId" name="saleId" type="java.lang.Integer">
+        </id>
+        <property column="sum" name="sum" type="java.lang.Integer"/>
+        <property column="count" name="count" type="java.lang.Integer"/>
+        <property column="prodname" name="prodname" type="java.lang.String"/>
+        <property column="date" name="date" type="java.sql.Date"/>
+    </class>
+  
+</hibernate-mapping>

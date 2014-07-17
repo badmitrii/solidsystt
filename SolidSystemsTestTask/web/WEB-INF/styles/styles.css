@@ -1,0 +1,140 @@
+body
+{
+    background-color: #BBC3CB;
+    width: 100%;
+    height: 100%;
+}
+
+table
+{
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid #808080;
+    border-collapse: collapse;
+}
+
+.add
+{
+    width:100%;
+}
+
+p#newname_footer
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #808080;
+    font-size: 11px;
+    padding: 0px;
+}
+
+p#cost_footer
+{
+    font-weight: normal;
+    display:none;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #808080;
+    font-size: 11px;
+    padding: 0px;
+}
+span#datefooter
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #808080;
+    font-size: 11px;
+    padding: 0px;
+}
+
+.modifierForm
+{
+    margin: 10px auto;
+    border: 1px solid #808080;
+    text-align: left;
+    vertical-align: middle;
+    width: 276px;
+    padding: 10px 30px 30px;
+    background-color: #EFEFEF;
+    font-family: "Arial","sans-serif";
+    font-weight: 100;
+    font-size: 12px;
+    display: none;
+    z-index: 1;
+    position: relative;
+}
+form.modifierForm > p
+{
+    display: block;
+    width: 248px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 4px;
+}
+.input_class
+{
+    height: 25px;
+    font-weight: bold;
+    border: 1px solid #808080;
+    width: 248px;
+    padding-left: 6px;
+    padding-right: 0px;
+}
+
+.button_foot
+{
+    display: none;
+    margin: 20px auto auto;
+    display: block;
+    font-weight: bold;
+    font-size: 10.5px;
+    width: 150px;
+    height: 30px;
+}
+
+.content
+{
+    border: 1px solid #808080;
+    font-family: "Arial","sans-serif";
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.button_left_content
+{
+    border: 1px solid #808080;
+    border-right: none;
+    font-family: "Arial","sans-serif";
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.button_mid_content
+{
+    border: 1px solid #808080;
+    border-right: none;
+    border-left: none;
+    font-family: "Arial","sans-serif";
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.button_right_content
+{
+    border: 1px solid #808080;
+    border-left: none;
+    font-family: "Arial","sans-serif";
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.header_content
+{
+    border: 1px solid #808080;
+    font-family: "Arial","sans-serif";
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}

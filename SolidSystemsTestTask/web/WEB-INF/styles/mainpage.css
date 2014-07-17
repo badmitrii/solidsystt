@@ -1,0 +1,67 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    text-align: center;
+    height: 100%;
+}
+div.main{
+    background-color: #f7f7f7;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    vertical-align: middle;
+}
+div.helper{
+    vertical-align: middle;
+    display:inline-block;
+    width: 0;
+    height: 100%;
+}
+input.but{
+    display: block;
+    width: 270px;
+    height: 45px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    vertical-align: middle;
+    color:#fff;
+    border: 1px solid #3079ed;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+}
+input.but:hover{
+    border: 1px solid #2f5bb7;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
+    background-image: linear-gradient(top,#4d90fe,#357ae8);
+}
+input.but:active{
+    box-shadow: inset 0 0 2px 0 rgba(0,0,0,0.8);
+    
+}
+/*
+div.main:first-child{
+margin-top: 100px;
+}
+div.main:last-child{
+margin-bottom: 100px;
+}*/
